@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Top100_searches_017_Undergrad_science" Id="8268b955-fddb-48de-9ba9-a50e3bfa3e88" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.3241be2f-8fdc-4f82-ac7b-e9d50ed085a6.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="69b52793-a2ad-487b-9cb7-42f4ce37d26e" Version="1.1" Url="https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/07/graduate/false" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/07/graduate/false?init=false&amp;nopassive=true" ReportingName="" IgnoreHttpStatusCode="False" />
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+      <RuleParameters>
+        <RuleParameter Name="FindText" Value="Have you ever dreamed about inspiring young people? Do you like to help someone understand a concept?" />
+        <RuleParameter Name="IgnoreCase" Value="False" />
+        <RuleParameter Name="UseRegularExpression" Value="False" />
+        <RuleParameter Name="PassIfTextFound" Value="True" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

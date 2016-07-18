@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="017_KeywordSearch_psychology_init" Id="f7f8e1a1-dfab-4b46-8849-5cbf3770b957" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e4caf978-963a-49a9-b0e2-32cabbba1e50.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="04f335ff-b6cd-4bcc-af52-c1a200d7bf39" Version="1.1" Url="https://webapp4.asu.edu/programs/t5/programs/Keyword/psychology/undergrad/false" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://webapp4.asu.edu/programs/t5/programs/Keyword/psychology/undergrad/false?init=false&amp;nopassive=true?init=false&amp;nopassive=true" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="init" Value="false" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="nopassive" Value="true" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateHtmlTagInnerText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Tag Inner Text" Description="Validates that the specified expected inner text exists within the specified HTML tag." Level="High" ExectuionOrder="BeforeDependents">
+      <RuleParameters>
+        <RuleParameter Name="TagName" Value="span" />
+        <RuleParameter Name="AttributeName" Value="class" />
+        <RuleParameter Name="AttributeValue" Value="breadcrumbDegreeTxt" />
+        <RuleParameter Name="ExpectedInnerText" Value="Undergraduate Degrees" />
+        <RuleParameter Name="RemoveInnerTags" Value="True" />
+        <RuleParameter Name="HasClosingTags" Value="True" />
+        <RuleParameter Name="CollapseWhiteSpace" Value="True" />
+        <RuleParameter Name="Index" Value="-1" />
+        <RuleParameter Name="IgnoreCase" Value="True" />
+      </RuleParameters>
+    </ValidationRule>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateHtmlTagInnerText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Tag Inner Text" Description="Validates that the specified expected inner text exists within the specified HTML tag." Level="High" ExectuionOrder="BeforeDependents">
+      <RuleParameters>
+        <RuleParameter Name="TagName" Value="div" />
+        <RuleParameter Name="AttributeName" Value="class" />
+        <RuleParameter Name="AttributeValue" Value="breadcrumbPagename mobile-no-display" />
+        <RuleParameter Name="ExpectedInnerText" Value="Search Results: psychology" />
+        <RuleParameter Name="RemoveInnerTags" Value="True" />
+        <RuleParameter Name="HasClosingTags" Value="True" />
+        <RuleParameter Name="CollapseWhiteSpace" Value="True" />
+        <RuleParameter Name="Index" Value="-1" />
+        <RuleParameter Name="IgnoreCase" Value="True" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
