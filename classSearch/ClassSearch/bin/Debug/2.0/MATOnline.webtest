@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="74262a5b-a5bf-4534-bb72-f4069a6d32bd" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.ffb92612-02e6-4732-a682-8ff020b0ee98.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="048f1b4b-a6cf-4197-ba1a-b325ca0473ce" Version="1.1" Url="https://webapp4-qa.asu.edu/catalog/classlist" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://webapp4-qa.asu.edu/catalog/Home.ext" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="3539f8f6-96ef-49e7-a0ec-083f3c98fc69" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/vzIUHo9z-oJ4WgkpPOtg1_esZW2xOQ-xsNqO47m55DA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="8670bcda-130c-4238-af6c-9a19ce007947" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="fa62ff02-6270-481b-a61d-effee74e8e73" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0cf64d02-56ff-423f-a636-93fbbd2195df" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="03c16736-f315-47e6-898b-d915fec35846" Version="1.1" Url="https://webapp4-qa.asu.edu/catalog/css/font-awesome-4.6.1/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c6055394-469c-4384-ac15-710dc3f37ae9" Version="1.1" Url="https://webapp4-qa.asu.edu/catalog/css/font-awesome-4.6.1/fonts/fontawesome-webfont.eot" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://webapp4-qa.asu.edu/catalog/Home.ext" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Cookie" Value="onlineCampusSelection=O" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="c" Value="ASUONLINE" RecordedValue="ASUONLINE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="s" Value="MAT" RecordedValue="MAT" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="t" Value="2167" RecordedValue="2167" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="e" Value="open" RecordedValue="open" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="hon" Value="F" RecordedValue="F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

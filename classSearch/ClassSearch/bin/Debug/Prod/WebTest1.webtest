@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="b0c056fb-10fa-4e14-aa32-36952a2b630c" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.47e8d2f6-bf2b-4f00-9910-fdf715e86631.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="e544302b-b167-413f-8646-aff1ff5c5a53" Version="1.1" Url="https://webapp4.asu.edu/programs/" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="6de902ec-db4b-4fc9-95f1-a118627ef0a5" Version="1.1" Url="https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/01/undergrad/false" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/01/undergrad/false?init=false&amp;nopassive=true" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://webapp4.asu.edu/programs/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3a917413-dccb-44e3-9909-b8a65efe5a6d" Version="1.1" Url="https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ARSTDBSD/undergrad/false" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/01/undergrad/false?init=false&amp;nopassive=true" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5f2e2f8e-f45e-4632-88ea-9bdf99fdc265" Version="1.1" Url="https://player.vimeo.com/video/110626871" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="e2bbc4b0-c7bd-443d-b1ca-ff4b84d87cf6" Version="1.1" Url="https://vimeo.com/ablincoln/vuid" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://player.vimeo.com/video/110626871" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="pid" Value="3b87a0bbb2dbe4a1b02e08296fdd21439af14efc1463526352" RecordedValue="3b87a0bbb2dbe4a1b02e08296fdd21439af14efc1463526352" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ARSTDBSD/undergrad/false" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ca788c7c-d7ae-4480-99b4-14786be1098d" Version="1.1" Url="https://f.vimeocdn.com/p/2.24.7/proxy.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://player.vimeo.com/video/110626871" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
